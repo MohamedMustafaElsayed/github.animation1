@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+   width: 1280px;
+   height:657px ;
+   background-image: url(../images/Pngtree\ blue\ sea\ bottom\ beautiful\ background_945258.jpg);
+   background-size: cover;
+   background-position: center;
+   margin: 0;
+   
+}
+.perent {
+   position: relative;
+}
+.perent > div {
+   position: absolute;
+   width: 140px ; 
+   height: 70px ;
+}
+.div1 {
+   margin-top: 10px;
+   animation-name: change1;
+   animation-duration: 5s ;
+   animation-timing-function: ease-in-out ;
+   animation-fill-mode: forwards;
+   animation-delay: 5s ;
+   transform: rotateY(180deg);
+}
+@keyframes change1 {
+   0% {
+      left: 0;
+   }
+   50% {
+      transform: scale(1.3);
+   }
+   100% {
+      left: 1135px;
+   }
+}
+.div2 {
+   top: 90px ;
+   right: 0;
+   animation-name: change2;
+   animation-duration: 5s ;
+   animation-timing-function: ease-in-out ;
+   animation-fill-mode: forwards;
+   animation-delay: 10s ;
+   transform: rotateY(180deg);
+}     
+@keyframes change2 {
+   0% {
+      right:  0;
+   }
+   50% {
+      transform: scale(1.3);
+   }
+   100% {
+      right: 1135px;
+   }
+}
+.div3 {
+   top: 170px;
+   animation-name: change3;
+   animation-duration: 5s ;
+   animation-timing-function: ease-in-out ;
+   animation-fill-mode: forwards;
+   animation-delay: 15s ;
+   transform: rotateY(180deg);
+}
+@keyframes change3 {
+   0% {
+      left: 0;
+   }
+   50% {
+      transform: scale(1.3);
+   }
+   100% {
+      left: 1135px;
+   }
+}
+.div4 {
+   top: 250px ;
+   right: 0;
+   animation-name: change4;
+   animation-duration: 5s ;
+   animation-timing-function: ease-in-out ;
+   animation-fill-mode: forwards;
+   animation-delay: 20s ;
+   transform: rotateY(180deg);
+}     
+@keyframes change4 {
+   0% {
+      right:  0;
+   }
+   50% {
+      transform: scale(1.3);
+   }
+   100% {
+      right: 1135px;
+   }
+}
+.div5 {
+   top: 330px;
+   animation-name: change5;
+   animation-duration: 5s ;
+   animation-timing-function: ease-in-out ;
+   animation-fill-mode: forwards;
+   animation-delay: 25s ;
+   transform: rotateY(180deg);
+}
+@keyframes change5 {
+   0% {
+      left: 0;
+   }
+   50% {
+      transform: scale(1.3);
+   }
+   100% {
+      left: 1135px;  
+   }
+}
+.div6 {
+   top: 410px ;
+   right: 0;
+   animation-name: change6;
+   animation-duration: 5s ;
+   animation-timing-function: ease-in-out ;
+   animation-fill-mode: forwards;
+   animation-delay: 30s ;
+   transform: rotateY(180deg);
+}     
+@keyframes change6 {
+   0% {
+      right:  0;
+   }
+   50% {
+      transform: scale(1.3);
+   }
+   100% {
+      right: 1135px;
+   }
+}
+.div7 {
+   top: 490px;
+   animation-name: change7;
+   animation-duration: 5s ;
+   animation-timing-function: ease-in-out ;
+   animation-fill-mode: forwards;
+   animation-delay: 35s ;
+   transform: rotateY(180deg);
+}
+@keyframes change7 {
+   0% {
+      left: 0;
+   }
+   50% {
+      transform: scale(1.3);
+   }
+   100% {
+      left: 1135px;
+   }
+}
+.div8 {
+   top: 570px ;
+   right: 0;
+   animation-name: change8;
+   animation-duration: 5s ;
+   animation-timing-function: ease-in-out ;
+   animation-fill-mode: forwards;
+   animation-delay: 40s ;
+   transform: rotateY(180deg);
+}     
+@keyframes change8 {
+   0% {
+      right:  0;
+   }
+   50% {
+      transform: scale(1.3);
+   }
+   100% {
+      right: 1135px;
+   }
+}
